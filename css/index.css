@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+header {
+    background-color: #f0f0f0;
+    padding: 5px 100px;
+    overflow: auto;
+}
+
+.logo {
+    float: left;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.company-name {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    float: left;
+    margin-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #4D4D4D;
+    font-size: 14px;
+    line-height: 50px;
+    font-family: "Inter", sans-serif;
+}
+
+.btnRegister {
+    border: solid 1px;
+    border-radius: 10px;
+    border-color: #28CB8B;
+    height: 30px;
+    margin-top: 8px;
+    padding: 2px 10px;
+    background-color: #28CB8B;
+}
+
+.navbar .linkRegister {
+    line-height: 0px;
+    vertical-align: sub;
+    color: white;
+}
+
+.navbar a:hover:not(.linkRegister) {
+    color: #28CB8B;
+}
+
+.main {
+    background-color: #e9ecef;
+    padding: 50px 0;
+    position: relative;
+    height: 500px;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.main-imagem {
+    text-align: center;
+    background-color: #C8E6C9;
+    border-radius: 25%;
+    height: 500px;
+    position: absolute;
+    width: 500px;
+}
+
+.main-imagem img {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+    vertical-align: middle;
+    margin-top: 50px;
+}
+
+.main-texto {
+    width: 500px;
+    padding: 0 40px;
+    height: 500px;
+    align-content: center;
+    margin-left: 500px;
+}
+
+.main-texto h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+    color: #4D4D4D;
+}
+
+.main-texto p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #717171;
+    font-family: "Inter", sans-serif;
+}
+
+.imagem-faixa {
+    height: 250px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.imagem-container {
+    font-size: 0;
+    height: 100%;
+}
+
+.imagem-container img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 27px 60px;
+    max-height: 80%;
+}
+
+.imagem-faixa h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+    color: #4D4D4D;
+}
+
+.contact {
+    background-color: #e9ecef;
+    position: relative;
+    height: 600px;
+}
+
+.contact h2 {
+    font-family: "Inter", sans-serif;
+    color: #4D4D4D;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.contact-texto p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #717171;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    padding: 0 35px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+form input, form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+form button:hover {
+    background-color: #45a049;
+}
+
+#btnContact {
+    text-align: right;
+}
+
+.message-container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 25%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.message-icon img {
+    width: 50px;
+}
+
+.message-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #717171;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    padding: 0 35px;
+}

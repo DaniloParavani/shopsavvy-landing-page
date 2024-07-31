@@ -5,54 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop Savvy</title>
 
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
-
 <body>
     <div id="container">
-        <header>
-            <div class="logo">
-                <img src="./assets/logo4.svg" alt="Logo da Empresa">
-            </div>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#">Página Inicial</a></li>
-                    <li><a href="#">Saiba Mais</a></li>
-                    <li><a href="#titleContact" class="smooth-scroll">Contato</a></li>
-                    <li id="btnRegister" class="btnRegister"><a href="#" class="linkRegister">Registre-se agora -></a></li>
-                </ul>
-            </nav>
-        </header>
 
-        <section class="main">
-            <div class="main-content">
-                <div class="main-imagem">
-                    <img src="./assets/imagemDestaque2.svg" alt="Imagem de Destaque">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img id="logo" src="./assets/logo4.svg" alt="Logo" width="80" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#logo">Página Inicial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth-scroll" href="#aboutSection">Saiba Mais</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth-scroll" href="#contactSection">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="demoButton" class="nav-link" href="#">Demonstração</a>
+                        </li>
+                        <li class="nav-item btnRegister">
+                            <a class="nav-link linkRegister" href="#">Registre-se</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="main-texto">
-                    <h2>Descubra o caminho para economizar enquanto faz suas compras!</h2>
-                    <p>
-                        Imagine um aplicativo que transforma a ida ao mercado em uma aventura econômica! Com nosso app inovador, você pode adicionar seus 
-                        produtos favoritos e descobrir a rota mais inteligente para economizar tempo e dinheiro. 
-                    </p>
-                    <p>
-                        Quer saber em qual mercado você vai pagar menos? 
-                        Ou prefere encontrar onde suas economias serão as maiores? Nós mostramos o caminho! Diga adeus ao desperdício e olá para uma nova forma 
-                        inteligente de fazer compras.
-                    </p>
-                    <p>Experimente agora mesmo e comece a economizar de verdade!</p>
+            </div>
+        </nav>
+
+        <section class="main d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 order-md-2 main-image-custom">
+                        <img src="./assets/imagemDestaque2.svg" alt="Imagem de destaque" class="img-fluid">
+                    </div>
+                    <div class="col-md-6 order-md-1 d-flex flex-column justify-content-center">
+                        <h1 class="main-title">Você ainda olha panfleto de supermercado para economizar nas compras?</h1>
+                        <p class="main-text">Com nosso app, você pode montar sua lista de compras e selecionar a rota que desejar. Quer economizar em apenas um lugar, ou distância pra você não é problema, quando o assunto é desconto? Escolha a opção que melhor se adapta às suas necessidades!</p>
+                        <a href="#register" class="btn btn-lg mt-3 main-btn-custom">Experimente Agora</a>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="imagem-faixa">
-            <h2>Categorias</h2>
+            <h2>Tudo o que você precisa, em um só lugar!</h2>
             <div class="imagem-container">
                 <div class="slick-carousel">
                     <div><img src="./assets/OvosLeite.png" alt="Imagem 1"></div>
@@ -70,11 +78,28 @@
             </div>
         </section>
 
-        <section class="contact">
+        <section id="aboutSection" class="about d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                        <img src="./assets/About.svg" alt="Nossa história" class="img-fluid rounded about-image-custom">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 id="titleAbout" class="text-center text-lg-left">Nossa história</h2>
+                        <p class="text-justify mt-3">A inspiração para a criação do nosso app surgiu de uma necessidade real do dia a dia. Durante uma maratona de compras, percebemos o quão cansativo e ineficiente era tentar economizar nas compras de supermercado. A mesa estava coberta de panfletos, mas os resultados não eram tão satisfatórios quanto esperávamos.</p>
+                        <p class="text-justify mt-3">Foi então que tivemos a ideia de criar uma solução mais prática e eficiente. Queríamos um aplicativo que permitisse montar uma lista de compras e, ao mesmo tempo, escolher entre gastar menos em um único lugar ou aproveitar os melhores descontos, independentemente da distância. Nosso objetivo era simplificar o processo de compras e maximizar a economia.</p>
+                        <p class="text-justify mt-3">Assim, desenvolvemos este app para ajudar pessoas como nós, que buscam praticidade e economia nas compras semanais. Com ele, você pode montar sua lista de compras e selecionar a rota que melhor se adapta às suas necessidades. Quer economizar em apenas um lugar ou prefere buscar os melhores preços, mesmo que isso signifique percorrer uma distância maior? A escolha é sua!</p>
+                        <p class="text-justify mt-3">Nosso compromisso é oferecer uma ferramenta eficiente que facilite a vida e traga economia para o seu dia a dia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contactSection" class="contact">
             <div class="contact-content">
                 <h2 id="titleContact">Contato</h2>
                 <div class="contact-texto">
-                    <p>Para nos mandar uma mensagem, preencha os campos abaixo.</p>
+                    <p>Tem alguma dúvida, elogio ou sugestão?</p>
                 </div>
 
                 <form id="contactForm" action="#" method="POST">
@@ -100,8 +125,26 @@
                 </form>
             </div>
         </section>
+
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-left">
+                        <p>&copy; 2024 Shop Savvy. Todos os direitos reservados.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-right">
+                        <a href="#" class=" mx-2">Política de Privacidade</a>
+                        <a href="#" class=" mx-2">Termos de Uso</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/darkreader/darkreader.js"></script>
     <script src="./js/index.js"></script>
 
 </body>

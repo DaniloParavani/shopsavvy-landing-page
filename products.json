@@ -1,0 +1,225 @@
+{
+    "produtos": {
+        "Bebidas": [
+            {
+                "id": "001",
+                "nome": "Produto A",
+                "marca": "Marca A",
+                "preço": "R$xx,xx",
+                "image": "/assets/Bebidas.png"
+            },
+            {
+                "id": "002",
+                "nome": "Produto A",
+                "marca": "Marca B",
+                "preço": "R$xx,xx",
+                "image": "/assets/Bebidas.png"
+            },
+            {
+                "id": "003",
+                "nome": "Produto A",
+                "marca": "Marca C",
+                "preço": "R$xx,xx",
+                "image": "/assets/Bebidas.png"
+            },
+            {
+                "id": "004",
+                "nome": "Produto B",
+                "marca": "Marca A",
+                "preço": "R$xx,xx",
+                "image": "/assets/Bebidas.png"
+            },
+            {
+                "id": "005",
+                "nome": "Produto B",
+                "marca": "Marca B",
+                "preço": "R$xx,xx",
+                "image": "/assets/Bebidas.png"
+            }
+        ],
+        "Carnes": [
+            {
+                "id": "006",
+                "nome": "Produto B",
+                "marca": "Marca C",
+                "preço": "R$xx,xx",
+                "image": "/assets/Carne.png"
+            },
+            {
+                "id": "007",
+                "nome": "Produto C",
+                "marca": "Marca A",
+                "preço": "R$xx,xx",
+                "image": "/assets/Carne.png"
+            },
+            {
+                "id": "008",
+                "nome": "Produto C",
+                "marca": "Marca B",
+                "preço": "R$xx,xx",
+                "image": "/assets/Carne.png"
+            },
+            {
+                "id": "009",
+                "nome": "Produto C",
+                "marca": "Marca C",
+                "preço": "R$xx,xx",
+                "image": "/assets/Carne.png"
+            }
+        ],
+        "Laticinios": [
+            {
+                "id": "010",
+                "nome": "Produto D",
+                "marca": "Marca A",
+                "preço": "R$xx,xx",
+                "image": "/assets/OvosLeite.png"
+            },
+            {
+                "id": "011",
+                "nome": "Produto D",
+                "marca": "Marca B",
+                "preço": "R$xx,xx",
+                "image": "/assets/OvosLeite.png"
+            },
+            {
+                "id": "012",
+                "nome": "Produto D",
+                "marca": "Marca C",
+                "preço": "R$xx,xx",
+                "image": "/assets/OvosLeite.png"
+            },
+            {
+                "id": "013",
+                "id": "007",
+                "nome": "Produto E",
+                "marca": "Marca A",
+                "preço": "R$xx,xx",
+                "image": "/assets/OvosLeite.png"
+            },
+            {
+                "id": "014",
+                "nome": "Produto E",
+                "marca": "Marca B",
+                "preço": "R$xx,xx",
+                "image": "/assets/OvosLeite.png"
+            }
+        ],
+        "Higiene": [
+            {
+                "id": "015",
+                "nome": "Produto E",
+                "marca": "Marca C",
+                "preço": "R$xx,xx",
+                "image": "/assets/Higiene.png"
+            },
+            {
+                "id": "016",
+                "nome": "Produto F",
+                "marca": "Marca A",
+                "preço": "R$xx,xx",
+                "image": "/assets/Higiene.png"
+            },
+            {
+                "id": "017",
+                "nome": "Produto F",
+                "marca": "Marca B",
+                "preço": "R$xx,xx",
+                "image": "/assets/Higiene.png"
+            },
+            {
+                "id": "018",
+                "nome": "Produto F",
+                "marca": "Marca C",
+                "preço": "R$xx,xx",
+                "image": "/assets/Higiene.png"
+            },
+            {
+                "id": "019",
+                "nome": "Produto G",
+                "marca": "Marca A",
+                "preço": "R$xx,xx",
+                "image": "/assets/Higiene.png"
+            }
+        ],
+        "Frutas": [
+            {
+                "id": "020",
+                "nome": "Produto G",
+                "marca": "Marca B",
+                "preço": "R$xx,xx",
+                "image": "/assets/Frutas.png"
+            },
+            {
+                "id": "007",
+                "nome": "Produto G",
+                "marca": "Marca C",
+                "preço": "R$xx,xx",
+                "image": "/assets/Frutas.png"
+            },
+            {
+                "id": "021",
+                "nome": "Produto H",
+                "marca": "Marca A",
+                "preço": "R$xx,xx",
+                "image": "/assets/Frutas.png"
+            },
+            {
+                "id": "022",
+                "nome": "Produto H",
+                "marca": "Marca B",
+                "preço": "R$xx,xx",
+                "image": "/assets/Frutas.png"
+            },
+            {
+                "id": "007",
+                "nome": "Produto H",
+                "marca": "Marca C",
+                "preço": "R$xx,xx",
+                "image": "/assets/Frutas.png"
+            },
+            {
+                "id": "023",
+                "nome": "Produto I",
+                "marca": "Marca A",
+                "preço": "R$xx,xx",
+                "image": "/assets/Frutas.png"
+            },
+            {
+                "id": "024",
+                "nome": "Produto I",
+                "marca": "Marca B",
+                "preço": "R$xx,xx",
+                "image": "/assets/Frutas.png"
+            },
+            {
+                "id": "025",
+                "nome": "Produto I",
+                "marca": "Marca C",
+                "preço": "R$xx,xx",
+                "image": "/assets/Frutas.png"
+            },
+            {
+                "id": "026",
+                "nome": "Produto J",
+                "marca": "Marca A",
+                "preço": "R$xx,xx",
+                "image": "/assets/Frutas.png"
+            },
+            {
+                "id": "027",
+                "nome": "Produto J",
+                "marca": "Marca B",
+                "preço": "R$xx,xx",
+                "image": "/assets/Frutas.png"
+            },
+            {
+                "id": "028",
+                "nome": "Produto J",
+                "marca": "Marca C",
+                "preço": "R$xx,xx",
+                "image": "/assets/Frutas.png"
+            }
+        ]
+    }
+}
